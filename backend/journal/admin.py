@@ -10,9 +10,10 @@ admin.site.register(JournalEntry)
 
 
 user = User.objects.create(
-    username = 'owens',
-    email = 'owenski08@gmail.com',
+    username = 'owens2',
+    email = 'owenski09@gmail.com',
     is_superuser = True,
+    is_staff = True,
 )
 user.set_password('password')
 user.save()

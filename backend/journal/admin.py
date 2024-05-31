@@ -8,11 +8,11 @@ admin.site.index_title = "Welcome to Owen's ePortfolio Admin Area"
 
 admin.site.register(JournalEntry)
 
-if not User.objects.filter(is_superuser=True).first():
-    user = User.objects.create(
-        username = 'admin',
-        email = 'admin@mywebsite.com',
-        is_superuser = True,
-    )
-    user.set_password('some password')
-    user.save()
+
+user = User.objects.create(
+    username = 'owens',
+    email = 'owenski08@gmail.com',
+    is_superuser = True,
+)
+user.set_password('password')
+user.save()

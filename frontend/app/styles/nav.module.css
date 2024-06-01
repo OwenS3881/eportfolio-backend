@@ -1,0 +1,11 @@
+.container {
+  background-color: #ececec;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.links-container > :first-child {
+  margin-right: 20px;
+}

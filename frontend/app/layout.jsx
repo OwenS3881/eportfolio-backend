@@ -1,4 +1,13 @@
-import "./globals.css";
+import "./styles/globals.css";
+
+import Nav from "./components/Nav";
+
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata = {
   title: "Owen's ePortfolio",
@@ -8,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={roboto.className}>
+        <Nav />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

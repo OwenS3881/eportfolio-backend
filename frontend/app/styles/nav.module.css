@@ -1,11 +1,25 @@
 .container {
-  background-color: #ececec;
+  background-color: var(--color-bg-2);
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: left;
+  margin: 10px;
 }
 
-.links-container > :first-child {
-  margin-right: 20px;
+.linksContainer a {
+  text-decoration: underline solid 2px var(--color-accent-2);
+  padding: 0px 10px;
+  border-right: 1px solid var(--color-dark);
+  color: var(--color-dark);
+  font-size: 20px;
+  transition: all 0.1s;
+}
+
+.linksContainer a:hover {
+  color: var(--color-accent-2);
+}
+
+.linksContainer :last-child {
+  border-right: none;
 }

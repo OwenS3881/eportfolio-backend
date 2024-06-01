@@ -1,0 +1,11 @@
+:root {
+  --color-bg-1: #e8e9eb;
+  --color-bg-2: #e0dfd5;
+  --color-accent-1: #f09d51;
+  --color-accent-2: #f06543;
+  --color-dark: #313638;
+}
+
+body {
+  background-color: var(--color-bg-1);
+}

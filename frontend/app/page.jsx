@@ -4,6 +4,10 @@ import Image from "next/image";
 
 import styles from "./styles/Home.module.css";
 
+import Link from "next/link";
+import ContactInfo from "./components/ContactInfo";
+import ResumeButton from "./components/ResumeButton";
+
 const HomePage = () => {
   return (
     <div className={styles.container}>
@@ -16,17 +20,20 @@ const HomePage = () => {
         />
       </div>
 
-      <div>
+      <div className={styles.aboutContainer}>
         <h1>Hi, I'm Owen</h1>
         <h3>Computer Science Major at the University of Florida</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum animi
-          cumque facere veniam quod perspiciatis veritatis velit dignissimos
-          ipsam quaerat, ut voluptatem reprehenderit, recusandae dolore saepe
-          commodi tempora facilis, sequi incidunt? Minus repellat officia minima
-          quam corporis. Amet alias vero molestiae tenetur et suscipit
-          temporibus, eligendi voluptate nisi ut nostrum.
+          [Information about me] Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ipsum animi cumque facere veniam quod perspiciatis
+          veritatis velit dignissimos ipsam quaerat, ut voluptatem
+          reprehenderit, recusandae dolore saepe commodi tempora facilis, sequi
+          incidunt? Minus repellat officia minima quam corporis. Amet alias vero
+          molestiae tenetur et suscipit temporibus, eligendi voluptate nisi ut
+          nostrum.
         </p>
+        <ContactInfo divClassName={styles.contactContainer} />
+        <ResumeButton />
       </div>
     </div>
   );

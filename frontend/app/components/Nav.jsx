@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../styles/Nav.module.css";
+import styles from "@/app/styles/Nav.module.css";
 
 import Link from "next/link";
 
@@ -13,10 +13,10 @@ const Nav = () => {
         </Link>
       </div>
       <div className={styles.linksContainer}>
-        <Link href={"/"}>Projects</Link>
-        <Link href={"/"}>Coursework</Link>
-        <Link href={"/"}>Research</Link>
-        <Link href={"/"}>Photos</Link>
+        <Link href={"/projects/"}>Projects</Link>
+        <Link href={"/coursework/"}>Coursework</Link>
+        <Link href={"/research/"}>Research</Link>
+        <Link href={"/photos/"}>Photos</Link>
         <Link href={"/journal/"}>Journal</Link>
       </div>
     </header>

@@ -1,11 +1,10 @@
 .container {
   background-color: #cfcfcf;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  margin: 10px;
 }
 
 .logoContainer {

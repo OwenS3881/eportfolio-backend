@@ -10,8 +10,10 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <p>&copy;2024 Owen Szymanski</p>
-      <ContactInfo />
-      <ResumeButton />
+      <hr />
+      <ContactInfo className={styles.contactInfo}/>
+      <hr />
+      <ResumeButton className={styles.resumeButton}/>
     </div>
   );
 };

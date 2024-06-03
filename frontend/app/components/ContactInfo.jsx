@@ -2,9 +2,9 @@ import React from "react";
 
 import Link from "next/link";
 
-const ContactInfo = ({ divClassName }) => {
+const ContactInfo = ({ className }) => {
   return (
-    <div className={divClassName}>
+    <div className={className}>
       <Link href={"mailto:owenski08@gmail.com"}>owenski08@gmail.com</Link>
       <Link href={"mailto:oszymanski@ufl.edu"}>oszymanski@ufl.edu</Link>
       <p>407-383-8500</p>

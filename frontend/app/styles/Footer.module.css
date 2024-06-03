@@ -1,5 +1,38 @@
 .container {
   background-color: #cfcfcf;
   width: 100%;
-  height: 100px;
+  height: auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 12px;
+}
+
+.container hr {
+  border: none;
+  background-color: #7f7f7f;
+  width: 90%;
+  height: 1px;
+  margin: 15px 0px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfo a, .contactInfo p {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.resumeButton {
+  font-size: 12px !important;
+  padding: 10px !important;
 }

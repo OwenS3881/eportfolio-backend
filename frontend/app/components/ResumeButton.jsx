@@ -4,9 +4,9 @@ import Link from "next/link";
 
 import styles from "@/app/styles/ResumeButton.module.css";
 
-const ResumeButton = () => {
+const ResumeButton = ( {className}) => {
   return (
-    <Link className={styles.button} href={"/api/resume"}>
+    <Link className={`${styles.button} ${className}`} href={"/api/resume"}>
       Download Resume
     </Link>
   );

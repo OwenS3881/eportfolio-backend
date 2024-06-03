@@ -6,4 +6,10 @@
   padding: 15px;
   display: inline-block;
   border-radius: 10px;
+
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(205, 78, 78);
 }

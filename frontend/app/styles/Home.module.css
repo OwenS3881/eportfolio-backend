@@ -3,20 +3,19 @@
   padding: 20px;
 }
 
-.section, .sectionReverse {
+.container section {
   display: grid;
   column-gap: 50px;
   min-height: 500px;
 }
 
-.section {
-  grid-template-columns: 1fr 2fr;
-}
-
-.sectionReverse {
+.container :nth-child(even) {
   grid-template-columns: 2fr 1fr;
 }
 
+.container :nth-child(odd) {
+  grid-template-columns: 1fr 2fr;
+}
 
 .imageContainer {
   display: flex;

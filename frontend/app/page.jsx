@@ -11,7 +11,7 @@ import ResumeButton from "./components/ResumeButton";
 const HomePage = () => {
   return (
     <div className={styles.container}>
-      <section className={styles.section}>
+      <section>
         <div className={styles.imageContainer}>
           <Image
             src={"/ProfilePictureSquare.jpg"}
@@ -32,7 +32,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className={styles.sectionReverse}>
+      <section>
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati, dicta libero sequi quo quae, quidem fuga, reiciendis eveniet esse possimus consectetur eius facilis fugit! Id minima cum eligendi porro dignissimos perferendis quo deserunt ipsam debitis itaque hic voluptatibus illo reiciendis, eos provident maiores veritatis sapiente adipisci blanditiis, iste officiis.</p>
         </div>
@@ -41,7 +41,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className={styles.section}>
+      <section>
         <div>
             Most Recent Project
           </div>
@@ -50,7 +50,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className={styles.sectionReverse}>
+      <section>
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati, dicta libero sequi quo quae, quidem fuga, reiciendis eveniet esse possimus consectetur eius facilis fugit! Id minima cum eligendi porro dignissimos perferendis quo deserunt ipsam debitis itaque hic voluptatibus illo reiciendis, eos provident maiores veritatis sapiente adipisci blanditiis, iste officiis.</p>
         </div>
@@ -59,7 +59,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className={styles.section}>
+      <section>
         <div>
             Most Recent Research
           </div>
@@ -68,7 +68,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className={styles.sectionReverse}> 
+      <section> 
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati, dicta libero sequi quo quae, quidem fuga, reiciendis eveniet esse possimus consectetur eius facilis fugit! Id minima cum eligendi porro dignissimos perferendis quo deserunt ipsam debitis itaque hic voluptatibus illo reiciendis, eos provident maiores veritatis sapiente adipisci blanditiis, iste officiis.</p>
         </div>

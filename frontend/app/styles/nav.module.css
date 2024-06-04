@@ -5,6 +5,9 @@
   flex-direction: row;
   justify-content: left;
   align-items: center;
+
+  box-shadow: 0px 1px 2px #000;
+  z-index: 10;
 }
 
 .logoContainer {
@@ -14,6 +17,7 @@
 .logoContainer a {
   text-decoration: none;
   color: #000;
+  transition: all 0.2s;
 }
 
 .linksContainer a {
@@ -22,11 +26,12 @@
   border-right: 1px solid #000;
   color: #000;
   font-size: 20px;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 
-.linksContainer a:hover {
-  color: #f00;
+.linksContainer a:hover,
+.logoContainer a:hover {
+  color: var(--color-accent);
 }
 
 .linksContainer :last-child {

@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
 
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .container hr {
@@ -26,7 +26,8 @@
   align-items: center;
 }
 
-.contactInfo a, .contactInfo p {
+.contactInfo a,
+.contactInfo p {
   text-decoration: none;
   color: #000;
   margin-bottom: 5px;
@@ -37,6 +38,6 @@
 }
 
 .resumeButton {
-  font-size: 12px !important;
+  font-size: 13px !important;
   padding: 10px !important;
 }

@@ -9,11 +9,11 @@ import ResumeButton from "./ResumeButton";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <p>&copy;2024 Owen Szymanski</p>
-      <hr />
       <ContactInfo className={styles.contactInfo}/>
       <hr />
       <ResumeButton className={styles.resumeButton}/>
+      <hr />
+      <p>&copy;2024 Owen Szymanski</p>
     </div>
   );
 };

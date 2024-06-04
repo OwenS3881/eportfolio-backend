@@ -1,5 +1,5 @@
 .container {
-  background-color: #cfcfcf;
+  background-color: var(--color-secondary);
   padding: 30px;
   display: flex;
   flex-direction: row;

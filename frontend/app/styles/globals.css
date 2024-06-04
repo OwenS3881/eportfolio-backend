@@ -1,10 +1,23 @@
+/* Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Color Palette */
+
 :root {
-  /* https://coolors.co/visualizer/f06543-e8e9eb-e0dfd5-313638-f09d51 */
-  --color-bg-1: #e8e9eb;
-  --color-bg-2: #e0dfd5;
-  --color-accent-1: #f09d51;
-  --color-accent-2: #f06543;
-  --color-dark: #313638;
+  --color-primary: #f6f6f6;
+
+
+  --color-secondary: #ccff00;
+
+
+  --color-accent: #0eff3a;
+
+  
 }
 
 * {
@@ -14,12 +27,14 @@
 }
 
 body {
-  background-color: var(--color-bg-1);
+  background-color: var(--color-secondary);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Pacifico", sans-serif;
 }
 
 main {
   flex: 1;
+  background-color: var(--color-primary);
 }

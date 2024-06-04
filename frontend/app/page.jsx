@@ -4,10 +4,6 @@ import Image from "next/image";
 
 import styles from "./styles/Home.module.css";
 
-import Link from "next/link";
-import ContactInfo from "./components/ContactInfo";
-import ResumeButton from "./components/ResumeButton";
-
 import ProfileSection from "./components/HomePage/ProfileSection";
 
 const HomePage = () => {
@@ -25,7 +21,6 @@ const HomePage = () => {
           <li>Recent Journal Entry</li>
         </ul>
       </div>
-
     </div>
   );
 };

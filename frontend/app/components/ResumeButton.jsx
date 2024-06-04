@@ -4,9 +4,12 @@ import Link from "next/link";
 
 import styles from "@/app/styles/ResumeButton.module.css";
 
-const ResumeButton = ( {className}) => {
+import { FaFileDownload } from "react-icons/fa";
+
+const ResumeButton = ({ className }) => {
   return (
     <Link className={`${styles.button} ${className}`} href={"/api/resume"}>
+      <FaFileDownload />
       Download Resume
     </Link>
   );

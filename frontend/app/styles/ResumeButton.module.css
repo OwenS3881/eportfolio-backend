@@ -4,13 +4,20 @@
   color: #000;
   font-size: 18px;
   padding: 15px;
-  display: inline-block;
+  display: inline-flex;
   border-radius: 10px;
 
   transition: all 0.2s;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {
   background-color: var(--color-secondary-light);
   color: #000;
+}
+
+.button :first-child {
+  margin-right: 5px;
 }

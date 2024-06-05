@@ -1,15 +1,17 @@
 import React from "react";
 
-import Image from "next/image";
-
 import styles from "./styles/Home.module.css";
 
 import ProfileSection from "./components/HomePage/ProfileSection";
+
+import SkillIcon from "./components/SkillIcon";
 
 const HomePage = () => {
   return (
     <div className={styles.container}>
       <ProfileSection />
+
+      <SkillIcon />
 
       <div className={styles.todo}>
         <h3>TO DO: Sections to implement</h3>

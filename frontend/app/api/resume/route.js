@@ -1,6 +1,8 @@
 import { readFile } from "fs/promises";
 import path from "path";
 
+//Call this route to download the resume file
+
 export async function GET() {
   const buffer = await readFile(
     path.join(process.cwd(), "public/OwenSzymanski_Resume.pdf")

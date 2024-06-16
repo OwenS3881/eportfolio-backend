@@ -2,6 +2,8 @@ import React from "react";
 
 import Link from "next/link";
 
+//Generic container containing my contact info
+
 const ContactInfo = ({ className }) => {
   return (
     <div className={className}>

@@ -6,12 +6,14 @@ import ProfileSection from "./components/HomePage/ProfileSection";
 
 import SkillIcon from "./components/SkillIcon";
 
+//Home Page
+
 const HomePage = () => {
   return (
     <div className={styles.container}>
       <ProfileSection />
 
-      <SkillIcon />
+      <SkillIcon href={""} />
 
       <div className={styles.todo}>
         <h3>TO DO: Sections to implement</h3>

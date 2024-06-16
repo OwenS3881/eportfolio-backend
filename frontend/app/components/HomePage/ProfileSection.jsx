@@ -7,6 +7,8 @@ import Link from "next/link";
 import ContactInfo from "../ContactInfo";
 import ResumeButton from "../ResumeButton";
 
+//Contains basic information about me to be displayed at the top of the home page
+
 const ProfileSection = () => {
   return (
     <section className={styles.container}>
@@ -23,7 +25,7 @@ const ProfileSection = () => {
         <h1>Hi, I'm Owen</h1>
         <h2>Computer Science Major at the University of Florida.</h2>
         <p>
-          Hello, I'm Owen Szymanski and I am an incoming Freshmen at the
+          Hello, I'm Owen Szymanski and I am an incoming freshman at the
           University of Florida. I am really excited to be majoring in Computer
           Science with the goal of becoming a software engineer. In addition to
           my CS major, I also want to earn a minor in Digital Arts and Sciences

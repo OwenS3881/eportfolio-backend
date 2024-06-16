@@ -4,6 +4,8 @@ import styles from "@/app/styles/Nav.module.css";
 
 import Link from "next/link";
 
+//Global Navbar
+
 const Nav = () => {
   return (
     <header className={styles.container}>

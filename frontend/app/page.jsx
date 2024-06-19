@@ -2,7 +2,10 @@ import React from "react";
 
 import styles from "./styles/Home.module.css";
 
+//Home page sections
 import ProfileSection from "./components/HomePage/ProfileSection";
+import SkillsSection from "./components/HomePage/SkillsSection";
+
 import SkillIcon from "./components/SkillIcon";
 import Tooltip from "./components/Tooltip";
 
@@ -13,22 +16,7 @@ const HomePage = () => {
     <div className={styles.container}>
       <ProfileSection />
 
-      <Tooltip text={"React JS"} fontSize={"12px"}>
-        <SkillIcon
-          href={"https://react.dev/"}
-          src={"/react-icon.png"}
-          size={50}
-          className={styles.test}
-        />
-      </Tooltip>
-
-      <Tooltip text={"Next JS"} fontSize={"12px"}>
-        <SkillIcon
-          href={"https://nextjs.org/"}
-          src={"/next-icon.jpg"}
-          size={50}
-        />
-      </Tooltip>
+      <SkillsSection />
 
       <div className={styles.todo}>
         <h3>TO DO: Sections to implement</h3>

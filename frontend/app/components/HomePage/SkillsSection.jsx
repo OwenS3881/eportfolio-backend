@@ -2,12 +2,9 @@ import React from "react";
 
 import styles from "@/app/styles/SkillsSection.module.css";
 
-import Image from "next/image";
-
 import SkillCard from "../SkillCard";
 
-import SkillIcon from "../SkillIcon";
-import Tooltip from "../Tooltip";
+//Displays all of my technical skills
 
 const SkillsSection = () => {
   return (

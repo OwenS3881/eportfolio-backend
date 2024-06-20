@@ -21,7 +21,6 @@ const HomePage = () => {
       <div className={styles.todo}>
         <h3>TO DO: Sections to implement</h3>
         <ul>
-          <li>Skills</li>
           <li>Most Recent Project</li>
           <li>Most Recent Coursework</li>
           <li>Most Recent Research</li>

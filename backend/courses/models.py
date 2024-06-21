@@ -10,4 +10,4 @@ class Course(models.Model):
     category = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.title
+        return self.uf_code

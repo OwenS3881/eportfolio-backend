@@ -11,3 +11,6 @@ class Course(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Test(models.Model):
+    test = models.CharField(max_length=200)

@@ -1,6 +1,6 @@
 from django.db import models
 
-class CourseEntry(models.Model):
+class Course(models.Model):
     uf_title = models.CharField(max_length=200)
     uf_code = models.CharField(max_length=50)
     high_school_title = models.CharField(max_length=200, blank=True, null=True)

@@ -9,4 +9,4 @@ class JournalEntryRetrieve(generics.ListAPIView):
 
 class SingleJournalEntryRetrieve(generics.ListAPIView):
     serializer_class = JournalEntrySerializer
-    queryset = JournalEntry.objects.all().order_by('date').first()
+    queryset = JournalEntry.objects.all().order_by('date')[0:1]

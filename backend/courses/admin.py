@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-from .models import Course, Test
+from .models import CourseEntry
 
-admin.site.register(Course)
-admin.site.register(Test)
+admin.site.register(CourseEntry)

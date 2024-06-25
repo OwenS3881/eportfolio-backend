@@ -5,9 +5,7 @@ class Project(models.Model):
     title = models.CharField(max_length=200)
     image = models.CharField(max_length=200)
     description = models.TextField()
-    skills = ArrayField(
-        models.CharField(max_length=200)
-    )
+    skills = models.CharField(max_length=1000)
     url = models.CharField(max_length=200)
 
     def __str__(self):

@@ -1,4 +1,4 @@
-# Owen's ePortfolio!!!
+# My ePortfolio's Backend
 
-My ePortfolio created to showcase my personal coding projects as well as my experiences at the University of Florida's Undergraduate Research Scholars Program.
+My ePortfolio's backend is used to store the data that is displayed on the frontend. Allows for easy editing of data.
 

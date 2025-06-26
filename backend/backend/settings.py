@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'journal',
     'courses',
     'projects',
+    'research',
     'rest_framework',
     'corsheaders',
 ]

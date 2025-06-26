@@ -24,6 +24,7 @@ urlpatterns = [
     path('api/journal/', include("journal.urls")),
     path('api/courses/', include("courses.urls")),
     path('api/projects/', include('projects.urls')),
+    path('api/research/', include('research.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)

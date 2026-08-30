@@ -3,8 +3,8 @@ from django.contrib.postgres.fields import ArrayField
 
 class ResearchExperience(models.Model):
     title = models.CharField(max_length=200)
-    professor = models.CharField(max_length=200),
-    department = models.CharField(max_length=1000),
+    professor = models.CharField(max_length=200)
+    department = models.CharField(max_length=1000)
     image = models.CharField(max_length=200)
     start_date = models.DateTimeField()
     end_date = models.DateTimeField(blank=True, null=True)
